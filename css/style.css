@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: auto;
+    border: 1px solid #62e26f;
+    box-shadow: 5px 5px #134c13;
+    width: 90%;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 40px;
+    color: #134c13;
+}
+
+#master{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 35%;
+    border: 1px solid #56c17f;
+    width: 500px;
+    height: 500px;
+    background: #62e26f;
+}
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between; 
+    height: 315px;
+    width: 315px;
+    background: #134c13;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -157.5px;
+    margin-left: -157.5px;
+    
+}
+
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #134c13;
+    background: #62e26f;
+    cursor: pointer;
+}
+
+/* TELA COM RESULTADO DA PARTIDA // SCREEN WITH MATCH RESULT */
+#endGame{
+    display: none;
+    height: 500px;
+    width: 500px;
+    font-family: 'Unbounded', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #134c13;
+    background-color: #62e26f;
+    opacity: 0.7;
+    position: absolute;
+    left: 35%;
+    z-index: 1;
+}
+
+p{
+    padding-top: 10px;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 365px;
+    border-radius: 5px;
+    background-color: #134c13;
+    color: #62e26f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #62e26f;
+    color: #134c13;
+    cursor: pointer;
+}
